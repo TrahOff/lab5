@@ -7,6 +7,7 @@ def main():
     cond = conductor.Conductor()
     er = error.Errors()
     s = " "
+    a = 10
 
     while True:
         if constants.Const.textfile.is_open():
