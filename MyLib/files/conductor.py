@@ -12,7 +12,7 @@ class Conductor:
             else:
                 errors.Errors.folder_error()
         elif object_type == "file":
-            f = file.File()
+            fi = file.File()
             expansion = f.get_expansion(object_name)
             if expansion == ".txt":
                 if constants.Const.textfile.is_open():
