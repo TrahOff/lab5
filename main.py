@@ -2,6 +2,8 @@ from MyLib.files import conductor
 import MyLib.errors as error
 import constants
 
+def prosto():
+    print(25)
 
 def main():
     cond = conductor.Conductor()
